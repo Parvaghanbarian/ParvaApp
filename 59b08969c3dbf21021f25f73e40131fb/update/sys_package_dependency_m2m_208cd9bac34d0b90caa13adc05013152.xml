@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Service Catalog Platform" source="com.glideapp.servicecatalog.platform">cfa0febf74a132104f345e3235ae47a8</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-28 02:02:32</sys_created_on>
+        <sys_id>208cd9bac34d0b90caa13adc05013152</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="ParvaApp" source="x_1617115_parvaapp">59b08969c3dbf21021f25f73e40131fb</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-28 02:02:32</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

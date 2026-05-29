@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>AI Devices</name>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-13 17:21:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>afee1702c3704710caa13adc05013162</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AI Devices</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ParvaApp" source="x_1617115_parvaapp">59b08969c3dbf21021f25f73e40131fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ParvaApp">59b08969c3dbf21021f25f73e40131fb</sys_scope>
+        <sys_update_name>sys_app_application_afee1702c3704710caa13adc05013162</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-13 19:44:21</sys_updated_on>
+        <title>AI Devices</title>
+        <view_name/>
+    </sys_app_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ParvaApp">59b08969c3dbf21021f25f73e40131fb</application>
+        <file_path/>
+        <instance_id>75901743ebc5d6103a48f459bad0cd2d</instance_id>
+        <instance_name>dev289135</instance_name>
+        <name>sys_app_application_afee1702c3704710caa13adc05013162</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>AI Devices</name>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-13 17:21:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>afee1702c3704710caa13adc05013162</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AI Devices</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ParvaApp" source="x_1617115_parvaapp">59b08969c3dbf21021f25f73e40131fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ParvaApp">59b08969c3dbf21021f25f73e40131fb</sys_scope>
+        <sys_update_name>sys_app_application_afee1702c3704710caa13adc05013162</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-13 19:44:21</sys_updated_on>
+        <title>AI Devices</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>]]></payload>
+        <payload_hash>-327932125</payload_hash>
+        <record_name>AI Devices</record_name>
+        <reverted_from/>
+        <source>d0893010c3054750caa13adc05013159</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-20 05:05:11</sys_created_on>
+        <sys_id>42993450c3054750caa13adc050131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e43c606110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-20 05:05:11</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>8a99345013054750f9a7042dd69827a1</update_guid>
+        <update_guid_history>8a99345013054750f9a7042dd69827a1:0,3498381cddc14750d9c96574f6f7bfac:507698779,d930ec987d014750208dd06251dca1b7:0,a0cd759e43348710073af0aa9dd91f31:-1280078831,4936e91e00708710de08bfceb064d969:0,13f3a956dc7087106078dc042ca663cc:507698779,ccbf3302ba7447108c8cac41645da650:58654031,a7ee1702077047100c7a549d21d24575:1382150603</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AI Devices">1781d422c3458790caa13adc050131b4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 01:56:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>2a146bcbaf5243ccac04da18b2ffafe9</sys_id>
+        <sys_metadata>afee1702c3704710caa13adc05013162</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AI Devices</sys_name>
+        <sys_package display_value="ParvaApp" source="x_1617115_parvaapp">59b08969c3dbf21021f25f73e40131fb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ParvaApp">59b08969c3dbf21021f25f73e40131fb</sys_scope>
+        <sys_scope_delete display_value="">0d2fc058519541cc82ef38938dfbda84</sys_scope_delete>
+        <sys_update_name>sys_app_application_afee1702c3704710caa13adc05013162</sys_update_name>
+        <sys_update_version display_value="sys_app_application_afee1702c3704710caa13adc05013162">42993450c3054750caa13adc050131a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 01:56:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
