@@ -1,4 +1,3 @@
-javascript
 var gr = new GlideRecord('x_1617115_parvaapp_device_request');
 gr.addQuery('u_choice_1', 'delivery failed');
 gr.addQuery('u_glide_date_time_1', '');
