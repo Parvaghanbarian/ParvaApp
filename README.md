@@ -123,7 +123,3 @@ For complete technical details, see **DOCUMENTATION.md**
 
 ## 👩‍💻 Author
 Parva Ghanbarian 
-
-
-
-Parva Bayat
