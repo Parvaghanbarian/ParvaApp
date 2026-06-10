@@ -33,7 +33,7 @@ Desired Outcomes:
 ## Part 2 — Data Model
 Two custom tables built from scratch in ServiceNow Studio:
 
-# AI Devices Table
+*AI Devices Table
 Stores the product catalog of all AI devices manufactured by ParvaApp.
   Field                                                    Purpose
 Device Name                                    Unique identifier for the device
@@ -44,7 +44,7 @@ Warranty                                       Warranty period
 Expiration                                     Warranty expiration date
 Status                                         Active / Inactive
 
-# Device Request Table
+*Device Request Table
 Stores every order placed by a client or internal user.
   Field                                                   Purpose
 Requestor Name                                    Reference to sys_user
@@ -71,10 +71,10 @@ Reminder Field Visibility             State = "Delivery Failed"            Show 
 
 --------
 ## Part 4 — Client Scripts
-# Script 1 — Hide Sections on Load (OnLoad)
+* Script 1 — Hide Sections on Load (OnLoad)
 Hides the Device Details and Delivery Details form sections by default to keep the form clean. Sections appear only when a device is selected.
 
-# Script 2 — Auto-Populate Device Details (getReference)
+* Script 2 — Auto-Populate Device Details (getReference)
 When a user selects a device, automatically fills in model, price, warranty, and expiration from the AI Devices table using an asynchronous callback:
 getReference must use a callback function — calling it synchronously loads all reference data at once and causes performance issues.
 
@@ -84,19 +84,19 @@ Device Management    x_1617115_parvaapp.device_management     Andrew Jackson, Bi
 Release Management   x_1617115_parvaapp.release_management    Daniel Zill, Felipe Mahone
 Dispatch Management  x_1617115_parvaapp.dispatch_management   George Grey, Jason Roy, John Retak
 
-# ACL Matrix — Device Request Table
+* ACL Matrix — Device Request Table
 read    dispatch_management, device_management, release_management
 create  device_management
 write   dispatch_management, device_management
 delete  device_management
 
-# ACL Matrix — AI Devices Table
+* ACL Matrix — AI Devices Table
 read    dispatch_management, device_management, release_management
 create  device_management
 write   device_management
 delete  device_management
 
-# Field-Level ACL
+* Field-Level ACL
 Owned By field in AI Devices table → visible only to device_management and release_management.
 Problems solved during ACL configuration:
 	•	Company field locked — Fixed by navigating to the field's Dictionary Entry and deactivating the security_admin restriction
