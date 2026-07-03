@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Configuration Management (CMDB)" source="com.snc.cmdb">2bcda233746132104f345e3235ae47bc</dependency>
+        <min_version>1.1</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 18:08:39</sys_created_on>
+        <sys_id>7a9651a9c3b00310caa13adc05013199</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="ParvaApp" source="x_1617115_parvaapp">59b08969c3dbf21021f25f73e40131fb</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 18:08:39</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

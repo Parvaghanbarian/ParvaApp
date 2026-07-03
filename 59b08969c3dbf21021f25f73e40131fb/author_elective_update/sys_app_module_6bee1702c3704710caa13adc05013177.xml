@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="ParvaApp">4faedc1ec3384710caa13adc0501316e</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>AI Devices</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1617115_parvaapp_ai_devices</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1617115_parvaapp.device_management,x_1617115_parvaapp.dispatch_management,x_1617115_parvaapp.release_management</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-13 17:21:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6bee1702c3704710caa13adc05013177</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Device Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ParvaApp" source="x_1617115_parvaapp">59b08969c3dbf21021f25f73e40131fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ParvaApp">59b08969c3dbf21021f25f73e40131fb</sys_scope>
+        <sys_update_name>sys_app_module_6bee1702c3704710caa13adc05013177</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 01:29:14</sys_updated_on>
+        <timeline_page/>
+        <title>Device Details</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ParvaApp">59b08969c3dbf21021f25f73e40131fb</application>
+        <file_path/>
+        <instance_id>75901743ebc5d6103a48f459bad0cd2d</instance_id>
+        <instance_name>dev289135</instance_name>
+        <name>sys_app_module_6bee1702c3704710caa13adc05013177</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ParvaApp">4faedc1ec3384710caa13adc0501316e</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>AI Devices</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1617115_parvaapp_ai_devices</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1617115_parvaapp.device_management,x_1617115_parvaapp.dispatch_management,x_1617115_parvaapp.release_management</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-13 17:21:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6bee1702c3704710caa13adc05013177</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Device Details</sys_name><sys_overrides/><sys_package display_value="ParvaApp" source="x_1617115_parvaapp">59b08969c3dbf21021f25f73e40131fb</sys_package><sys_policy/><sys_scope display_value="ParvaApp">59b08969c3dbf21021f25f73e40131fb</sys_scope><sys_update_name>sys_app_module_6bee1702c3704710caa13adc05013177</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 01:29:14</sys_updated_on><timeline_page/><title>Device Details</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>2104123049</payload_hash>
+        <record_name>Device Details</record_name>
+        <reverted_from/>
+        <source>4de94f20c30c8310caa13adc05013125</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 01:29:14</sys_created_on>
+        <sys_id>474bcce2c3058790caa13adc05013116</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e670cd44b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 01:29:14</sys_updated_on>
+        <type>Module</type>
+        <update_guid>474bcce243058790b6f522334b391615</update_guid>
+        <update_guid_history>474bcce243058790b6f522334b391615:2104123049,4a9934506f054750d03dea57a044d2a8:0,1c98f41cafc14750d8467e81735f0de4:945573752,2788b41c62c1475088546410c0f5bacf:0,d530ec9800014750024401597ee159cb:0,092b2ac4ab8107508d7bcac8cd9bed67:945573752,8c2ba6c4568107508d34208146e39060:0,0936e91ed070871081c82dd55091d570:0,4ff36956e4708710b9058566d6758fc3:945573752,56f329561a7087102f99d2e495979d19:0,d35f549eee384710f1f8f4a3c63850f6:-1991563450,ebee170205704710f56f9104e87cf97d:286494961</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Device Details">c78cc4a6c3058790caa13adc05013119</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 01:34:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>9a809dfda3ed4e74b2483fe628253ee4</sys_id>
+        <sys_metadata>6bee1702c3704710caa13adc05013177</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Device Details</sys_name>
+        <sys_package display_value="ParvaApp" source="x_1617115_parvaapp">59b08969c3dbf21021f25f73e40131fb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ParvaApp">59b08969c3dbf21021f25f73e40131fb</sys_scope>
+        <sys_scope_delete display_value="">0d2fc058519541cc82ef38938dfbda84</sys_scope_delete>
+        <sys_update_name>sys_app_module_6bee1702c3704710caa13adc05013177</sys_update_name>
+        <sys_update_version display_value="sys_app_module_6bee1702c3704710caa13adc05013177">474bcce2c3058790caa13adc05013116</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 01:34:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

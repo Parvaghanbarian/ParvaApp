@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a53cf096c33c4710caa13adc050131c6" sys_domain="global" table="x_1617115_parvaapp_ai_devices" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-14 00:08:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>313cf096c33c4710caa13adc050131cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1617115_parvaapp_ai_devices" name="x_1617115_parvaapp_ai_devices" sys_domain="global" view="Default view">a53cf096c33c4710caa13adc050131c6</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1617115_parvaapp_ai_devices" sys_domain="global" view="Default view">11049cd6c3f44710caa13adc0501315e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-14 00:08:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-14 00:08:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>753c3496c33c4710caa13adc05013100</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1617115_parvaapp_ai_devices" name="x_1617115_parvaapp_ai_devices" sys_domain="global" view="Default view">a53cf096c33c4710caa13adc050131c6</sys_ui_form>
+            <sys_ui_section caption="Price And Warranty" display_value="Price And Warranty" name="x_1617115_parvaapp_ai_devices" sys_domain="global" view="Default view">213cf096c33c4710caa13adc050131c3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-14 00:08:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1617115_parvaapp_ai_devices</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-14 00:08:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a53cf096c33c4710caa13adc050131c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1617115_parvaapp_ai_devices</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ParvaApp" source="x_1617115_parvaapp">59b08969c3dbf21021f25f73e40131fb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ParvaApp">59b08969c3dbf21021f25f73e40131fb</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a53cf096c33c4710caa13adc050131c6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-14 00:08:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
