@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="total_coast" table="x_1617115_parvaapp_device_request">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_device_name" table="x_1617115_parvaapp_device_data">
         <active>true</active>
         <array>false</array>
-        <attributes>omit_sys_original=true</attributes>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Device Name</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Total Cost</column_label>
+        <column_label>Device Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,19 +21,19 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>total_coast</element>
+        <element>u_device_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Currency">currency</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>20</max_length>
-        <name>x_1617115_parvaapp_device_request</name>
+        <max_length>40</max_length>
+        <name>x_1617115_parvaapp_device_data</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-28 02:33:03</sys_created_on>
-        <sys_name>Total Cost</sys_name>
+        <sys_created_on>2026-06-25 16:19:35</sys_created_on>
+        <sys_name>Device Name</sys_name>
         <sys_package display_value="ParvaApp" source="x_1617115_parvaapp">59b08969c3dbf21021f25f73e40131fb</sys_package>
         <sys_policy/>
         <sys_scope display_value="ParvaApp">59b08969c3dbf21021f25f73e40131fb</sys_scope>
-        <sys_update_name>sys_dictionary_x_1617115_parvaapp_device_request_total_coast</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1617115_parvaapp_device_data_u_device_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-24 19:25:59</sys_updated_on>
+        <sys_updated_on>2026-06-25 16:19:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

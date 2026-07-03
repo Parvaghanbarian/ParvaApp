@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1617115_parvaapp_device_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Auto Set Reminder (Delivery Failed)</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+
+    if (current.u_choice_1.changesTo('delivery failed')) {
+        current.u_glide_date_time_1 = new GlideDateTime();
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 01:51:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c64e9bbc3698310caa13adc05013159</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Auto Set Reminder (Delivery Failed)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ParvaApp" source="x_1617115_parvaapp">59b08969c3dbf21021f25f73e40131fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ParvaApp">59b08969c3dbf21021f25f73e40131fb</sys_scope>
+        <sys_update_name>sys_script_0c64e9bbc3698310caa13adc05013159</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 02:08:38</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=0c64e9bbc3698310caa13adc05013159"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ParvaApp">59b08969c3dbf21021f25f73e40131fb</application>
+        <file_path/>
+        <instance_id>75901743ebc5d6103a48f459bad0cd2d</instance_id>
+        <instance_name>dev289135</instance_name>
+        <name>sys_script_0c64e9bbc3698310caa13adc05013159</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1617115_parvaapp_device_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Auto Set Reminder (Delivery Failed)&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous) {
+
+    if (current.u_choice_1.changesTo('delivery failed')) {
+        current.u_glide_date_time_1 = new GlideDateTime();
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-25 01:51:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0c64e9bbc3698310caa13adc05013159&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Auto Set Reminder (Delivery Failed)&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ParvaApp" source="x_1617115_parvaapp"&gt;59b08969c3dbf21021f25f73e40131fb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ParvaApp"&gt;59b08969c3dbf21021f25f73e40131fb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_0c64e9bbc3698310caa13adc05013159&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-25 02:08:38&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0c64e9bbc3698310caa13adc05013159"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1106291815</payload_hash>
+        <record_name>Auto Set Reminder (Delivery Failed)</record_name>
+        <reverted_from/>
+        <source>461563a3c3a94310caa13adc050131ce</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 02:08:38</sys_created_on>
+        <sys_id>366aa9b7c3a98310caa13adc05013134</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19efc8952d60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 02:08:38</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>7e6aa9b730a983107f43a5a9eb208c32</update_guid>
+        <update_guid_history>7e6aa9b730a983107f43a5a9eb208c32:1106291815,0f2a61b773a983103c9019dda5f70652:-1403580825,79c965773fa9831013975b25a20b2bb2:902129766,829969f3b1a9831037a9f08f542349ec:-1725445430,89f869f308a9831095aa6c7d211d7f7b:255545962,0338a1b3d6a983108d2028b46f580e67:2015728898,64f7697338a98310fc69794777bab902:1106291815,e596adbfa06983109678c745cc6262e5:-304363601</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 02:13:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>0d7eeabffe32470781208dfc4af55cf9</sys_id>
+        <sys_metadata>0c64e9bbc3698310caa13adc05013159</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto Set Reminder (Delivery Failed)</sys_name>
+        <sys_package display_value="ParvaApp" source="x_1617115_parvaapp">59b08969c3dbf21021f25f73e40131fb</sys_package>
+        <sys_parent display_value="Device Request">fdec3996c3348710caa13adc05013170</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ParvaApp">59b08969c3dbf21021f25f73e40131fb</sys_scope>
+        <sys_scope_delete display_value="">0d2fc058519541cc82ef38938dfbda84</sys_scope_delete>
+        <sys_update_name>sys_script_0c64e9bbc3698310caa13adc05013159</sys_update_name>
+        <sys_update_version display_value="sys_script_0c64e9bbc3698310caa13adc05013159">366aa9b7c3a98310caa13adc05013134</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 02:13:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

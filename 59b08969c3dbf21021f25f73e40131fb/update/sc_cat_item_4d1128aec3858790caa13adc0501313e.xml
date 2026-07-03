@@ -59,7 +59,7 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <short_description>You yan order your AI Devices from the Catalog Item.</short_description>
+        <short_description>You can order your AI Devices from the Catalog Item.</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state>published</state>
@@ -67,21 +67,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-27 03:06:55</sys_created_on>
         <sys_id>4d1128aec3858790caa13adc0501313e</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Order AI Devices</sys_name>
         <sys_package display_value="ParvaApp" source="x_1617115_parvaapp">59b08969c3dbf21021f25f73e40131fb</sys_package>
         <sys_policy/>
         <sys_scope display_value="ParvaApp">59b08969c3dbf21021f25f73e40131fb</sys_scope>
         <sys_update_name>sc_cat_item_4d1128aec3858790caa13adc0501313e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-28 02:44:57</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-06-25 01:14:52</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>14</version>
+        <version>16</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
